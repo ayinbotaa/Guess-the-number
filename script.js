@@ -25,6 +25,7 @@ check.addEventListener('click', function () {
     // this block of code runs when user guess the number right
   } else if (value === randomNumber) {
     message.textContent = 'Yayy! correct🥳';
+    check.textContent = 'yayy!🎊';
     number.textContent = value;
     document.querySelector('body').style.backgroundColor = '#20bf55';
     document.querySelector('.number').style.width = '20rem';
@@ -65,6 +66,7 @@ reset.addEventListener('click', function () {
   document.querySelector('body').style.backgroundColor = '#9f78f1';
   document.querySelector('.number').style.width = '13rem';
   input.value = '';
+  check.textContent = 'Check';
   scoreValue.textContent = '❤️ Score: ' + 10;
   score = 10;
 });
