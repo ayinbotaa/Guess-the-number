@@ -12,7 +12,7 @@ let randomNumber = Math.floor(Math.random() * 20) + 1;
 let highscore = 0;
 let score = 10;
 
-welcome.textContent = `${userName}😊`;
+welcome.textContent = `${userName}`;
 
 //Event listener for the start button
 check.addEventListener('click', function () {
