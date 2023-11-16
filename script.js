@@ -24,7 +24,7 @@ check.addEventListener('click', function () {
 
     // this block of code runs when user guess the number right
   } else if (value === randomNumber) {
-    message.textContent = 'Yayy! correct🥳';
+    message.textContent = `Yayy! Good job ${userName}🥳`;
     check.textContent = 'yayy!🎊';
     number.textContent = value;
     document.querySelector('body').style.backgroundColor = '#20bf55';
