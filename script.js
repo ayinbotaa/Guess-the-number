@@ -1,5 +1,5 @@
 'use strict';
-let userName = prompt('Enter a user name for the game');
+let userName = prompt('Please enter a user-name for the game');
 const check = document.querySelector('.check');
 let input = document.querySelector('.input');
 const number = document.querySelector('.number');
@@ -34,8 +34,8 @@ check.addEventListener('click', function () {
     }
 
     // Ignore this line please😁...i''m messing with my friends with this
-  } else if (value === 1616) {
-    message.textContent = 'sena';
+  } else if (value === 1818) {
+    message.textContent = 'funeral birthday😮‍💨';
 
     // this block of code runs when user guess a number lower than the value
   } else if (value < randomNumber) {
