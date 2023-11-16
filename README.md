@@ -10,7 +10,7 @@ This repo contains a brain teaser game called "Guess the number"
 
 ### Links
 
-- Live Site URL: [Live site URL here](https://playful-parfait-4f8f26.netlify.app/)
+- Live Site URL: [Live site URL here](https://ayinbota-guess-the-number.netlify.app/)
 
 ### Built with
 
