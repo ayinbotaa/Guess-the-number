@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess my number.</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/503675b696.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h3>welcome <span class="welcome"></span></h3>
+      <p>I am a number between <strong>1 and 20</strong></p>
+    </header>
+    <div class="container">
+      <p class="game-name">Guess the number</p>
+      <p class="number">?</p>
+      <input type="number" class="input" max="20" min="0" /><br />
+      <button class="btn check">Check</button>
+      <div>
+        <div>
+          <button class="reset">
+            <i class="fas fa-redo-alt"></i>&nbsp;restart
+          </button>
+        </div>
+        <div class="game-deatails">
+          <p class="message">Start guessing...</p>
+          <p class="score">❤️ Score: 10</p>
+          <p class="highscore">🏅 Highscore:</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
