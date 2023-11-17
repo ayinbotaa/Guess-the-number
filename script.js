@@ -53,7 +53,7 @@ check.addEventListener('click', function () {
   }
   if (score <= 0) {
     scoreValue.textContent = 0;
-    message.textContent = 'GAME OVER!💥';
+    message.textContent = `oops! sorry ${userName}, GAME OVER!💥`;
     document.querySelector('body').style.backgroundColor = '#827b5a';
   }
 });
