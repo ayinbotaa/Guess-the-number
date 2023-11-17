@@ -34,9 +34,9 @@ check.addEventListener('click', function () {
       highscoreValue.textContent += ' ' + highscore;
     }
 
-    // Ignore this line please😁...i''m messing with my friends with this
-  } else if (value === 1818) {
-    message.textContent = 'funeral birthday😮‍💨';
+    // this block of code runs when user enters a value more than required
+  } else if (value > 20) {
+    message.textContent = '⚠️Number should be between 1 - 20!';
 
     // this block of code runs when user guess a number lower than the value
   } else if (value < randomNumber) {
